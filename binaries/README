@@ -1,0 +1,16 @@
+Expects 
+1. PHP binary builds
+ a) x86
+  i) Debug
+  ii) Debug_TS
+  iii) Release
+  iv) Release_TS
+ a) x64
+  i) Debug
+  ii) Debug_TS
+  iii) Release
+  iv) Release_TS
+2. PHP include files
+3. run tests script
+
+Prebuild binaries with headers be downloaded from https://github.com/winapiforphp/projects/downloads

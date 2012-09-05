@@ -2,7 +2,7 @@
 Thumbs.db
 
 # Object files
-*.o
+*.obj
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -18,5 +18,7 @@ Thumbs.db
 
 # no builds, no binaries
 Release/
+Release_TS/
 Debug/
+Debug_TS/
 binaries/
