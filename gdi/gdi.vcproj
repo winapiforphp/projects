@@ -2,8 +2,8 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="system"
-	ProjectGUID="{6879EC31-529A-42C6-BF39-06F927A807A3}"
+	Name="gdi"
+	ProjectGUID="{5CE31144-C10A-4AF6-B6B5-D0C75579E6E3}"
 	RootNamespace="system"
 	TargetFrameworkVersion="196613"
 	>
@@ -44,7 +44,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				AdditionalIncludeDirectories="&quot;$(SolutionDir)/binaries/include/win32&quot;;&quot;$(SolutionDir)/binaries/include/Zend&quot;;&quot;$(SolutionDir)/binaries/include/TSRM&quot;;&quot;$(SolutionDir)/binaries/include&quot;;&quot;$(SolutionDir)/binaries/include/main&quot;"
-				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;_USE_32BIT_TIME_T=1;ZEND_DEBUG=1;COMPILE_DL_WINSYSTEM"
+				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;_USE_32BIT_TIME_T=1;ZEND_DEBUG=1;COMPILE_DL_WINGDI"
 				MinimalRebuild="false"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
@@ -57,7 +57,7 @@
 			/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\system&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\gdi&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -119,7 +119,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				AdditionalIncludeDirectories="&quot;$(SolutionDir)/binaries/include/win32&quot;;&quot;$(SolutionDir)/binaries/include/Zend&quot;;&quot;$(SolutionDir)/binaries/include/TSRM&quot;;&quot;$(SolutionDir)/binaries/include&quot;;&quot;$(SolutionDir)/binaries/include/main&quot;"
-				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;ZEND_DEBUG=1;COMPILE_DL_WINSYSTEM"
+				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;ZEND_DEBUG=1;COMPILE_DL_WINGDI"
 				MinimalRebuild="false"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
@@ -132,7 +132,7 @@
 			/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\system&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\gdi&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -195,7 +195,7 @@
 				Optimization="3"
 				EnableIntrinsicFunctions="true"
 				AdditionalIncludeDirectories="&quot;$(SolutionDir)/binaries/include/win32&quot;;&quot;$(SolutionDir)/binaries/include/Zend&quot;;&quot;$(SolutionDir)/binaries/include/TSRM&quot;;&quot;$(SolutionDir)/binaries/include&quot;;&quot;$(SolutionDir)/binaries/include/main&quot;"
-				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;ZEND_WIN32_FORCE_INLINE;_USE_32BIT_TIME_T=1;ZEND_DEBUG=0;COMPILE_DL_WINSYSTEM"
+				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;ZEND_WIN32_FORCE_INLINE;_USE_32BIT_TIME_T=1;ZEND_DEBUG=0;COMPILE_DL_WINGDI"
 				StringPooling="true"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="false"
@@ -207,7 +207,7 @@
 			/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\system&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\gdi&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -273,7 +273,7 @@
 				Optimization="3"
 				EnableIntrinsicFunctions="true"
 				AdditionalIncludeDirectories="&quot;$(SolutionDir)/binaries/include/win32&quot;;&quot;$(SolutionDir)/binaries/include/Zend&quot;;&quot;$(SolutionDir)/binaries/include/TSRM&quot;;&quot;$(SolutionDir)/binaries/include&quot;;&quot;$(SolutionDir)/binaries/include/main&quot;"
-				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;ZEND_WIN32_FORCE_INLINE;ZEND_DEBUG=0;COMPILE_DL_WINSYSTEM"
+				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;ZEND_WIN32_FORCE_INLINE;ZEND_DEBUG=0;COMPILE_DL_WINGDI"
 				StringPooling="true"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="false"
@@ -285,7 +285,7 @@
 			/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\system&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\gdi&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -348,7 +348,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				AdditionalIncludeDirectories="&quot;$(SolutionDir)/binaries/include/win32&quot;;&quot;$(SolutionDir)/binaries/include/Zend&quot;;&quot;$(SolutionDir)/binaries/include/TSRM&quot;;&quot;$(SolutionDir)/binaries/include&quot;;&quot;$(SolutionDir)/binaries/include/main&quot;"
-				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;_USE_32BIT_TIME_T=1;ZEND_DEBUG=1;ZTS=1;COMPILE_DL_WINSYSTEM"
+				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;_USE_32BIT_TIME_T=1;ZEND_DEBUG=1;ZTS=1;COMPILE_DL_WINGDI"
 				MinimalRebuild="false"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
@@ -361,7 +361,7 @@
 			/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\system&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\gdi&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -424,7 +424,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				AdditionalIncludeDirectories="&quot;$(SolutionDir)/binaries/include/win32&quot;;&quot;$(SolutionDir)/binaries/include/Zend&quot;;&quot;$(SolutionDir)/binaries/include/TSRM&quot;;&quot;$(SolutionDir)/binaries/include&quot;;&quot;$(SolutionDir)/binaries/include/main&quot;"
-				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;ZEND_DEBUG=1;ZTS=1;COMPILE_DL_WINSYSTEM"
+				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;ZEND_DEBUG=1;ZTS=1;COMPILE_DL_WINGDI"
 				MinimalRebuild="false"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
@@ -437,7 +437,7 @@
 			/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\system&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\gdi&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -500,7 +500,7 @@
 				Optimization="3"
 				EnableIntrinsicFunctions="true"
 				AdditionalIncludeDirectories="&quot;$(SolutionDir)/binaries/include/win32&quot;;&quot;$(SolutionDir)/binaries/include/Zend&quot;;&quot;$(SolutionDir)/binaries/include/TSRM&quot;;&quot;$(SolutionDir)/binaries/include&quot;;&quot;$(SolutionDir)/binaries/include/main&quot;"
-				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;ZEND_WIN32_FORCE_INLINE;_USE_32BIT_TIME_T=1;ZEND_DEBUG=0;ZTS=1;COMPILE_DL_WINSYSTEM"
+				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;ZEND_WIN32_FORCE_INLINE;_USE_32BIT_TIME_T=1;ZEND_DEBUG=0;ZTS=1;COMPILE_DL_WINGDI"
 				StringPooling="true"
 				MinimalRebuild="false"
 				RuntimeLibrary="2"
@@ -514,7 +514,7 @@
 			/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\system&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\gdi&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -580,7 +580,7 @@
 				Optimization="3"
 				EnableIntrinsicFunctions="true"
 				AdditionalIncludeDirectories="&quot;$(SolutionDir)/binaries/include/win32&quot;;&quot;$(SolutionDir)/binaries/include/Zend&quot;;&quot;$(SolutionDir)/binaries/include/TSRM&quot;;&quot;$(SolutionDir)/binaries/include&quot;;&quot;$(SolutionDir)/binaries/include/main&quot;"
-				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;ZEND_WIN32_FORCE_INLINE;ZEND_DEBUG=0;ZTS=1;COMPILE_DL_WINSYSTEM"
+				PreprocessorDefinitions="_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;ZEND_WIN32=1;PHP_WIN32=1;WIN32;ZEND_WIN32_FORCE_INLINE;ZEND_DEBUG=0;ZTS=1;COMPILE_DL_WINGDI"
 				StringPooling="true"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="false"
@@ -592,7 +592,7 @@
 			/>
 			<Tool
 				Name="VCResourceCompilerTool"
-				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\system&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
+				AdditionalIncludeDirectories="&quot;$(SolutionDir)\..\gdi&quot;;&quot;$(SolutionDir)/binaries/include&quot;"
 			/>
 			<Tool
 				Name="VCPreLinkEventTool"
@@ -639,69 +639,61 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..\..\system\event.c"
+				RelativePath="..\..\gdi\bitmap.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\system\mutex.c"
+				RelativePath="..\..\gdi\brush.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\system\php_winsystem.c"
+				RelativePath="..\..\gdi\color.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\system\process.c"
+				RelativePath="..\..\gdi\devicecontext.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\system\registry.c"
+				RelativePath="..\..\gdi\path.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\system\semaphore.c"
+				RelativePath="..\..\gdi\pen.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\system\thread.c"
+				RelativePath="..\..\gdi\php_wingdi.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\system\timer.c"
+				RelativePath="..\..\gdi\region.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\system\unicode.c"
+				RelativePath="..\..\gdi\region_elliptic.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\system\util.c"
+				RelativePath="..\..\gdi\region_polygon.c"
 				>
 			</File>
 			<File
-				RelativePath="..\..\system\waitable.c"
+				RelativePath="..\..\gdi\region_rectangle.c"
 				>
 			</File>
-			<Filter
-				Name="service"
+			<File
+				RelativePath="..\..\gdi\region_roundrectangle.c"
 				>
-				<File
-					RelativePath="..\..\system\service\base.c"
-					>
-				</File>
-				<File
-					RelativePath="..\..\system\service\controller.c"
-					>
-				</File>
-				<File
-					RelativePath="..\..\system\service\install.c"
-					>
-				</File>
-				<File
-					RelativePath="..\..\system\service\service.c"
-					>
-				</File>
-			</Filter>
+			</File>
+			<File
+				RelativePath="..\..\gdi\util.c"
+				>
+			</File>
+			<File
+				RelativePath="..\..\gdi\window.c"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
@@ -709,19 +701,15 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath="..\..\system\php_winsystem.h"
+				RelativePath="..\..\gdi\php_wingdi.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\system\php_winsystem_public.h"
+				RelativePath="..\..\gdi\php_wingdi_public.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\system\version.h"
-				>
-			</File>
-			<File
-				RelativePath="..\..\system\waitable.h"
+				RelativePath="..\..\gdi\version.h"
 				>
 			</File>
 		</Filter>
@@ -731,7 +719,7 @@
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
 			<File
-				RelativePath=".\system.rc"
+				RelativePath=".\gdi.rc"
 				>
 			</File>
 		</Filter>
