@@ -651,15 +651,15 @@
 				>
 			</File>
 			<File
+				RelativePath="..\..\system\exceptions.c"
+				>
+			</File>
+			<File
 				RelativePath="..\..\system\mutex.c"
 				>
 			</File>
 			<File
 				RelativePath="..\..\system\php_winsystem.c"
-				>
-			</File>
-			<File
-				RelativePath="..\..\system\process.c"
 				>
 			</File>
 			<File
@@ -683,33 +683,9 @@
 				>
 			</File>
 			<File
-				RelativePath="..\..\system\util.c"
-				>
-			</File>
-			<File
 				RelativePath="..\..\system\waitable.c"
 				>
 			</File>
-			<Filter
-				Name="service"
-				>
-				<File
-					RelativePath="..\..\system\service\base.c"
-					>
-				</File>
-				<File
-					RelativePath="..\..\system\service\controller.c"
-					>
-				</File>
-				<File
-					RelativePath="..\..\system\service\install.c"
-					>
-				</File>
-				<File
-					RelativePath="..\..\system\service\service.c"
-					>
-				</File>
-			</Filter>
 		</Filter>
 		<Filter
 			Name="Header Files"
